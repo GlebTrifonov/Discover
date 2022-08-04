@@ -21,6 +21,21 @@
         min-height: auto;
         padding: 40px 0;
     }
+
+    .fav-container {
+        flex-direction: column;
+    }
+
+    .fav-item {
+        width: 100%;
+    }
+
+    .fav-text {
+        width: 100%;
+    }
+    .fav-img {
+        width: 30%;
+    }
 }
 
 @media(max-width:800px) {
@@ -63,4 +78,15 @@
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+@media(max-width:600px) {
+    .fav-item {
+        flex-direction: column;
+    }
+    .fav-img{
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
