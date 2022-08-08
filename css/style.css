@@ -197,3 +197,119 @@ header .container {
     color: var(--LIGHTGREY);
     line-height: 22px;
 }
+
+.service {
+    display: flex;
+    background: #efeeee;
+}
+
+.service-slider {
+    width: 50%;
+    position: relative;
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    color: #bbcfcf;
+    border-radius: 50%;
+    margin: 0 6px;
+    outline: none;
+}
+
+.slick-active button {
+    background: var(--white);
+}
+
+.service-block {
+    width: 50%;
+    padding: 60px 0; 
+}
+
+.service-container {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 60px auto 0;
+}
+
+.service-item {
+    width: 48%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: var(--LIGHTGREY);
+    line-height: 24px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.service-slider {
+   background-color: red;
+}
+
+.slick-list,
+.slick-track {
+    height: 100%;
+}
+
+.slide img {
+    height: 100%;
+}
+
+.tours {
+    padding:100px 0;
+    text-align: center;
+}
+
+.tours-container {
+    flex-wrap: wrap;
+    margin: 75px auto;
+}
+
+.tours-container a {
+    background: red;
+    flex:0 24%;
+    margin-bottom: 2%;
+}
+
+.tours-container a img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+    height: auto;
+}
+
+.more {
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    background: var(--green);
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 26px;
+    padding: 25px 50px;
+    box-shadow: 0 0 35px rgba(89, 196, 90, 0.65);
+    transition: .3s;
+}
+
+.more:hover {
+    box-shadow: none;
+}
